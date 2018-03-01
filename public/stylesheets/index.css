@@ -1,0 +1,72 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+.container {
+	background-color: #f1f1f1;
+	width: 100%;
+	min-height: 760px;
+	height: 100%;
+}
+.login { 
+	width: 33%;
+	height: 40rem;
+	margin: 50px auto;
+	background-color: #ffffff;
+}
+.login-flag {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	font-weight: 900;
+	cursor: pointer;
+}
+.login-flag:hover {
+	border-bottom: 2px solid #ea6f5a;
+}
+.choosed {
+	border-bottom: 2px solid #ea6f5a;
+	color: #ea6f5a;
+}
+.login-input {
+	position: relative;
+}
+.login-icon {
+	position: absolute;
+	line-height: 34px;
+	padding: 0px 10px;
+	color: #969696;
+	border-right: 1px solid #ccc;
+}
+.login-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.region {
+	display: none;
+}
+.upload {
+	padding: 4px 10px;
+	height: 20px;
+	line-height: 20px;
+	position: relative;
+	border: 1px solid #ea6f5a;
+	text-decoration: none;
+	color: #ea6f5a;
+	border-radius: 10px;
+}
+.upload:hover {
+	text-decoration: none;
+	color: #ea6f5a
+}
+.change {
+	position: absolute;
+	overflow: hidden;
+	right: 0px;
+	top: 0px;
+	opacity: 0;
+}
+.change:hover {
+	cursor: pointer
+}

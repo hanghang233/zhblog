@@ -1,0 +1,101 @@
+.padder-sm {
+	padding: 8px;
+}
+.padder-v {
+	padding: 10px 20px;
+}
+.padder-30 {
+	padding: 30px;
+}
+.p-l-40 {
+	padding-left: 40px;
+}
+.p-l-none {
+	padding-left: 0px;
+}
+.p-r-none {
+	padding-right: 0px;
+}
+.p-b-none {
+	padding-bottom: 0px;
+}
+.m-t-s {
+	margin-top: 10px;
+}
+.m-t {
+	margin-top: 15px;
+}
+.m-t-l {
+	margin-top: 30px;
+}
+.m-t-lx {
+	margin-top: 40px;
+}
+.m-l {
+	margin-left: 15px;
+}
+.m-l-l {
+	margin-left: 30px;
+}
+.m-r {
+	margin-right: 15px;
+}
+.m-b-none {
+	margin-bottom: 0px;
+}
+.color-base {
+	color: #ea6f5a;
+}
+.color-gray {
+	color: #969696;
+}
+.color-grayer {
+	color: #c8c8c8;
+}
+.color-blue {
+	color: #0083fd;
+}
+/* 字体 */
+.font-18 {
+	font-size: 18px;
+}
+.font-16 {
+	font-size: 16px;
+}
+.btn-rounded {
+	border-radius: 10px;
+}
+.btn-blue {
+	background-color: #0083fe;
+	color: #fff;
+}
+.btn-blue:hover {
+	color: #fff;
+}
+/* 宽度 */
+.base-line {
+	background-color: #ccc;
+	height: 1px;
+	display: inline-block;
+}
+.overflow {
+	overflow: hidden;
+}
+.dis-show {
+	display: inline-block!important;
+}
+.dis-hide {
+	display: none;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.inline-block {
+	display: inline-block;
+}

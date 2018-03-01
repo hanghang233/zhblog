@@ -1,0 +1,51 @@
+<% include header.ejs %>
+	<div class="container">
+		<div class='login padder-30 m-t-l'>
+			<form class="form-horizontal overflow" role="form">
+				<div class="text-center color-gray font-16">
+					<span class="login-flag bottom-red choosed">登录</span>
+					<span>·</span>
+					<span class="login-flag">注册</span>
+				</div>
+				<div class="m-t-lx form-group region dis-show">
+					<div class="col-sm-12 login-input">
+						<i class="glyphicon glyphicon-user login-icon"></i>
+				  		<input type="text" class="form-control p-l-40" placeholder="请输入用户名" id="login_name" />
+					</div>
+					<div class="col-sm-12 m-t">
+						<i class="glyphicon glyphicon-user login-icon"></i>
+				  		<input type="text" class="form-control p-l-40" placeholder="请输入密码" id="login_password" />
+					</div>
+					<button class="btn btn-sm col-sm-12 btn-blue padder-sm font-18 m-t-l" type="button" id="login">登录</button>
+			  	</div>
+			  	<div class="m-t-lx form-group region dis-hide">
+					<div class="col-sm-12 login-input">
+						<i class="glyphicon glyphicon-user login-icon"></i>
+				  		<input type="text" class="form-control p-l-40" placeholder="请输入用户名" id="register_name" />
+					</div>
+					<div class="col-sm-12 m-t">
+						<i class="glyphicon glyphicon-user login-icon"></i>
+				  		<input type="text" class="form-control p-l-40" placeholder="请输入密码" id="register_password" />
+					</div>
+					<div class="col-sm-12 m-t">
+						<i class="glyphicon glyphicon-user login-icon"></i>
+				  		<input type="text" class="form-control p-l-40" placeholder="请再次输入密码确认" id="register_passagain" />
+					</div>
+					<button class="btn btn-sm col-sm-12 btn-blue padder-sm font-18 m-t-l" type="button" id="register">注册</button>
+			  	</div>
+			</form>
+			<div class="m-t">
+				<div class="login-footer">
+					<span class="width-30 base-line" style="width: 30%;"></span>
+					<span class="m-l m-r color-gray">个人博客</span>
+					<span class="width-30 base-line" style="width: 30%;"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<link rel='stylesheet' href='/stylesheets/index.css' />
+	<script src="/libs/jquery-2.2.4.min.js"></script>
+	<script src="/javascripts/index.js"></script>
+	<script src="/javascripts/modal.js"></script>
+<% include modal.ejs %>
+<% include footer.ejs %>
